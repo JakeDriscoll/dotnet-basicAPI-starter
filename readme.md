@@ -28,10 +28,3 @@ Remove-Item .\Controllers\WeatherForecastController.cs
 dotnet run
 # Go to your running app and add swaggger to the end ie: http://localhost:5110/swagger
 ```
-echo "# dotnet-basicAPI-starter" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/JakeDriscoll/dotnet-basicAPI-starter.git
-git push -u origin main
