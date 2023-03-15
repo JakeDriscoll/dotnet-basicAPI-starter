@@ -39,12 +39,12 @@ builder.Services.AddDbContext<$($className)Context>(opt =>
     
 }
 
-# MakeClass "BasicSetting"
-# MakeClass "PracticeSetting"
-# MakeClass "AppointmentType"
-# MakeClass "Provider"
-# MakeClass "AppointmentPurpose"
-# MakeClass "Location"
+MakeClass "BasicSetting"
+MakeClass "PracticeSetting"
+MakeClass "AppointmentType"
+MakeClass "Provider"
+MakeClass "AppointmentPurpose"
+MakeClass "Location"
 
 Write-Host "Add the context to your Program.cs with"
 WriteHelper "BasicSetting"
